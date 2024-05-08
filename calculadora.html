@@ -21,6 +21,35 @@
     <button type='button' id='sete'onclick'7'>7</button>button>
     <button type='button' id='oito'onclick'8'>8</button>button>
     <button type='button' id='nove'onclick'9'>9</button>button>
+    <div class='calculadora'>
+     <div class='display' placeholder='0' disabled>
+       <h2 id='historico'></h2>
+     </div>
+
+      <div class='linha'>
+        <button class'ice' onclick='limpar()'>CE</button>
+        <button class'c' onclick='limpar()'>C</button>
+        <button class'percent' onclick='percentual()'>%</button>
+        <button class'divisao' onclick='add_operador("/")'>/</button>
+      </div>
+      <div class='linha'>
+      <button class'numero' onclick="add_numero('7')">7</button>
+      <button class'numero' onclick="add_numero('8')">8</button>
+      <button class'numero' onclick="add_numero('9')">9</button>
+      <button class'multiplicacao' onclick="add_operador('*')">*</button>
+      </div>
+       <div class='linha'>
+      <button class'numero' onclick="add_numero('4')">4</button>
+      <button class'numero' onclick="add_numero('5')">5</button>
+      <button class'numero' onclick="add_numero('6')">6</button>
+      <button class'subtracao' onclick="add_operador('-')">-</button>
+      </div>
+      <div class='linha'>
+      <button class'numero' onclick="add_numero('1')">1</button>
+      <button class'numero' onclick="add_numero('2')">2</button>
+      <button class'numero' onclick="add_numero('3')">3</button>
+      <button class'adicao' onclick="add_operador('+')">+</button>
+      </div>
   </body>
 </head>
 </html>
